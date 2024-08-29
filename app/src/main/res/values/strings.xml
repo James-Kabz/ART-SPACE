@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">Art Space App</string>
+
     <string name="bmw1">The F87 :BMW M2 able acceleration from 0–100 km/h from 4.1 seconds 460 hp </string>
     <string name="bmw_year">BMW M2(2022)</string>
+
     <string name="bmw2">The G80 :The BMW M3 Competition is also available, offering 510 hp</string>
     <string name="bmw_year2">BMW M3(2022)</string>
+
     <string name="bmw3">The G82 :The 3.0 liter petrol engine with 6 cylinders delivers 510 hp </string>
     <string name="bmw_year3">BMW M4 (2023)</string>
+
     <string name="bmw4">The F90:BMW M5 CS accelerates from 0–100 km/h in 3.0 seconds with 635 hp</string>
     <string name="bmw_year4">BMW M5 CS(2024)</string>
 </resources>

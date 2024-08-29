@@ -184,16 +184,11 @@ fun ArtDisplay(
     @DrawableRes currentArtWork: Int,
     @StringRes contentDescription: Int
 ) {
-    Card(
-        modifier = Modifier
-            .padding(5.dp)
-            .clip(RoundedCornerShape(16.dp)),
-        elevation = CardDefaults.cardElevation(40.dp)
-    ) {
-        Box(
+    Box(
             modifier = Modifier
-                .padding(17.dp)
-//                .background(Color(0xFF8B8C8C))
+                .padding(30.dp)
+                .clip(RoundedCornerShape(10.dp))
+                .background(Color(0xFF8B8C8C))
 
         ) {
             Image(
@@ -201,12 +196,13 @@ fun ArtDisplay(
                 contentDescription = stringResource(id = contentDescription),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(200.dp)
-                    .clip(RoundedCornerShape(10.dp)),
+                    .padding(10.dp)
+                    .clip(RoundedCornerShape(30.dp))
+                    .clip(RoundedCornerShape(10)),
                 contentScale = ContentScale.FillWidth
             )
         }
-    }
+
 }
 
 @Composable
